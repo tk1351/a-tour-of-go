@@ -1,16 +1,19 @@
 package main
 
 import (
-	"a-tour-of-go/config"
+	"a-tour-of-go/app/models"
 	"fmt"
-	"log"
 )
 
 func main() {
-	fmt.Println(config.Config.Port)
-	fmt.Println(config.Config.SQLDriver)
-	fmt.Println(config.Config.DbName)
-	fmt.Println(config.Config.LogFile)
+	/*
+		fmt.Println(config.Config.Port)
+		fmt.Println(config.Config.SQLDriver)
+		fmt.Println(config.Config.DbName)
+		fmt.Println(config.Config.LogFile)
 
-	log.Println("test")
+		log.Println("test")
+	*/
+
+	fmt.Println(models.Db)
 }
