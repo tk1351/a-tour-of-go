@@ -72,8 +72,14 @@ func main() {
 			fmt.Println(v)
 		}
 	*/
-	t, _ := models.GetTodo(1)
-	t.Content = "Update Todo"
-	t.UpdateTodo()
-	fmt.Println(t)
+	/*
+		t, _ := models.GetTodo(1)
+		t.Content = "Update Todo"
+		t.UpdateTodo()
+		fmt.Println(t)
+	*/
+	// t, _ := models.GetTodo(3)
+	// t.DeleteTodo()
+	todos, _ := models.GetTodos()
+	fmt.Println(todos)
 }
