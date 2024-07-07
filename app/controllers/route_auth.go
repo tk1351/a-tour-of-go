@@ -20,6 +20,8 @@ func signup(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 
+		defer r.Body.Close()
+
 		body := make([]byte, length)
 		length, err = r.Body.Read(body)
 		if err != nil && err != io.EOF {
