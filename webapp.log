@@ -1,3 +1,7 @@
 2024/07/07 07:19:59 main.go:15: test
 2024/07/07 08:23:23 user.go:72: no such table: users
 2024/07/07 13:00:21 todo.go:96: no such table: todos
+2024/07/08 08:08:35 main.go:16: sql: expected 5 destination arguments in Scan, not 4
+2024/07/08 08:20:38 route_auth.go:103: <nil>
+2024/07/08 08:21:18 route_auth.go:103: Login Failed
+2024/07/08 08:21:36 route_auth.go:103: Login Failed
